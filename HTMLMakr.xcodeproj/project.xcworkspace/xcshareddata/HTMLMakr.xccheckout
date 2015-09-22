@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A058FD68-C7EC-4609-8E1C-3B4D4CE3C102</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HTMLMakr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D17907BD49F74C5EA981786A8950C46F06FA7D49</key>
+		<string>https://github.com/AlexFine/HTMLMakr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HTMLMakr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D17907BD49F74C5EA981786A8950C46F06FA7D49</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlexFine/HTMLMakr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D17907BD49F74C5EA981786A8950C46F06FA7D49</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D17907BD49F74C5EA981786A8950C46F06FA7D49</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HTMLMakr</string>
+		</dict>
+	</array>
+</dict>
+</plist>
