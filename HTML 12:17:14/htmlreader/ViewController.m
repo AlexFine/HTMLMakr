@@ -49,7 +49,8 @@
     self.search.layer.cornerRadius = 2.0;
     _search.clipsToBounds = YES;
     _Video2Back.clipsToBounds = YES;
-
+_Video2Back.layer.borderColor=[[UIColor darkGrayColor]CGColor];
+    _Video2Back.layer.borderWidth=1.0;
     _rad.clipsToBounds = YES;
     self.preview.layer.cornerRadius = 4.0;
     _preview.clipsToBounds = YES;
