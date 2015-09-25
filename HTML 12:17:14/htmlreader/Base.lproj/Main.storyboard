@@ -122,10 +122,11 @@
                                 </constraints>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Inz-P3-VX6">
-                                <rect key="frame" x="16" y="20" width="288" height="30"/>
-                                <color key="backgroundColor" red="0.9505349864" green="0.17200238513405672" blue="0.06093847474116193" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Back" backgroundImage="RED">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="16" y="20" width="288" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -133,7 +134,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.9505349864" green="0.91474146512390297" blue="0.93994547884026969" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.79162016369047616" green="0.76527851729661545" blue="0.78503475209201101" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="back2" destination="Inz-P3-VX6" id="40J-by-pI4"/>
@@ -775,7 +776,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.18631114130000001" green="0.18631114130000001" blue="0.18631114130000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.79091958624047609" green="0.79091958624047609" blue="0.79091958624047609" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="Video2Back" destination="QZJ-zT-prs" id="Nua-lp-pMS"/>
@@ -797,7 +798,6 @@
         <image name="FullScreen" width="300" height="300"/>
         <image name="Gradient_Series___Orange" width="897" height="307"/>
         <image name="New180" width="1024" height="1024"/>
-        <image name="RED" width="144" height="132"/>
         <image name="Screen Shot 2014-10-05 at 6.51.06 PM" width="620" height="464"/>
         <image name="Screen Shot 2014-10-05 at 7.01.03 PM copy" width="618" height="450"/>
         <image name="Screen Shot 2014-10-05 at 7.05.05 PM" width="608" height="337"/>
@@ -817,9 +817,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ICl-6i-LB1"/>
-        <segue reference="GFt-1E-QcL"/>
-        <segue reference="F8Z-Aj-z06"/>
+        <segue reference="J3N-Vy-LgA"/>
         <segue reference="FuG-b3-9Jg"/>
+        <segue reference="F8Z-Aj-z06"/>
         <segue reference="oQt-ii-nVw"/>
         <segue reference="OPY-UB-3IP"/>
     </inferredMetricsTieBreakers>
