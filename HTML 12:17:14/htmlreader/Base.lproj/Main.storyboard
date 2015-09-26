@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oi-d6-OXa">
-                                <rect key="frame" x="16" y="201" width="288" height="71"/>
+                                <rect key="frame" x="16" y="141" width="288" height="71"/>
                                 <color key="backgroundColor" red="0.11966838686718174" green="0.95053498641304346" blue="0.23272372354373211" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Start!" backgroundImage="Blue6">
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXp-Gf-qw2">
-                                <rect key="frame" x="16" y="287" width="288" height="40"/>
+                                <rect key="frame" x="16" y="220" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.95053498641304346" blue="0.1424375733338781" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="How to Use" backgroundImage="Blue2">
@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBa-TW-4oM">
-                                <rect key="frame" x="16" y="335" width="288" height="40"/>
+                                <rect key="frame" x="16" y="268" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.14984990070842441" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="History" backgroundImage="Blue3">
@@ -59,7 +59,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5s-CF-vhr">
-                                <rect key="frame" x="16" y="383" width="288" height="40"/>
+                                <rect key="frame" x="16" y="316" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.14984990070842441" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="What's HTML?" backgroundImage="Blue4">
@@ -71,10 +71,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New180" translatesAutoresizingMaskIntoConstraints="NO" id="21W-yz-A55">
-                                <rect key="frame" x="77" y="28" width="166" height="165"/>
+                                <rect key="frame" x="106" y="20" width="109" height="113"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33k-IZ-S9Y">
-                                <rect key="frame" x="16" y="431" width="288" height="40"/>
+                                <rect key="frame" x="16" y="364" width="288" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.15893595311272257" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Tweet!" backgroundImage="Blue5">
@@ -85,6 +85,13 @@
                                     <action selector="Share:" destination="X88-Oa-F3o" eventType="touchUpInside" id="SNh-7u-dze"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pUs-Xm-CrZ">
+                                <rect key="frame" x="16" y="412" width="284" height="87"/>
+                                <string key="text">Are you a developer interested in improving HTML Makr? Find the code for the app on github at https://github.com/AlexFine/HTMLMakr</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -815,11 +822,11 @@
         <image name="rosé" width="138" height="126"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FuG-b3-9Jg"/>
-        <segue reference="F8Z-Aj-z06"/>
-        <segue reference="Qla-nt-Ir1"/>
-        <segue reference="ICl-6i-LB1"/>
-        <segue reference="oQt-ii-nVw"/>
+        <segue reference="GFt-1E-QcL"/>
+        <segue reference="F9T-Ar-di8"/>
         <segue reference="OPY-UB-3IP"/>
+        <segue reference="oQt-ii-nVw"/>
+        <segue reference="ICl-6i-LB1"/>
+        <segue reference="lSJ-xd-Ffy"/>
     </inferredMetricsTieBreakers>
 </document>
