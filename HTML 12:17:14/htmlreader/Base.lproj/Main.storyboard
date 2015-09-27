@@ -85,9 +85,8 @@
                                     <action selector="Share:" destination="X88-Oa-F3o" eventType="touchUpInside" id="SNh-7u-dze"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pUs-Xm-CrZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Are you a developer interested in improving HTML Makr? Find the code on github at https://github.com/AlexFine/HTMLMakr" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pUs-Xm-CrZ">
                                 <rect key="frame" x="16" y="412" width="284" height="87"/>
-                                <string key="text">Are you a developer interested in improving HTML Makr? Find the code for the app on github at https://github.com/AlexFine/HTMLMakr</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -287,6 +286,9 @@
                                     <action selector="surchbutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="l1W-RB-Nyw"/>
                                 </connections>
                             </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acg-kt-se6">
+                                <rect key="frame" x="0.0" y="502" width="320" height="66"/>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" red="0.92752207880434778" green="0.92752207880434778" blue="0.92752207880434778" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -742,6 +744,9 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="crossDissolve" id="F9T-Ar-di8"/>
                                 </connections>
                             </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5tP-rz-Nkx">
+                                <rect key="frame" x="0.0" y="502" width="320" height="66"/>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -824,9 +829,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="GFt-1E-QcL"/>
         <segue reference="F9T-Ar-di8"/>
-        <segue reference="OPY-UB-3IP"/>
         <segue reference="oQt-ii-nVw"/>
         <segue reference="ICl-6i-LB1"/>
+        <segue reference="OPY-UB-3IP"/>
         <segue reference="lSJ-xd-Ffy"/>
     </inferredMetricsTieBreakers>
 </document>
