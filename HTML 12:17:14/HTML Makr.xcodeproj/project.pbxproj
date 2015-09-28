@@ -447,7 +447,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -480,7 +480,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -493,6 +493,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Leah Fine (4KUW5736FV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Leah Fine (4KUW5736FV)";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "htmlreader/HTML Makr-Prefix.pch";
 				INFOPLIST_FILE = "htmlreader/HTML Makr-Info.plist";
@@ -502,7 +503,7 @@
 					/Users/alexfine/Downloads/GoogleAnalyticsServicesiOS_3.10,
 				);
 				PRODUCT_NAME = "HTML Makr";
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -515,6 +516,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Leah Fine (4KUW5736FV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Leah Fine (4KUW5736FV)";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "htmlreader/HTML Makr-Prefix.pch";
 				INFOPLIST_FILE = "htmlreader/HTML Makr-Info.plist";
@@ -524,7 +526,7 @@
 					/Users/alexfine/Downloads/GoogleAnalyticsServicesiOS_3.10,
 				);
 				PRODUCT_NAME = "HTML Makr";
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -598,7 +600,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -611,6 +613,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Leah Fine (4KUW5736FV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Leah Fine (4KUW5736FV)";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "htmlreader/HTML Makr-Prefix.pch";
 				INFOPLIST_FILE = "htmlreader/HTML Makr-Info.plist";
@@ -620,7 +623,7 @@
 					/Users/alexfine/Downloads/GoogleAnalyticsServicesiOS_3.10,
 				);
 				PRODUCT_NAME = "HTML Makr";
-				PROVISIONING_PROFILE = "92bc45e8-2de1-4c29-a8e4-e36c4c16ae9a";
+				PROVISIONING_PROFILE = "3584b0e7-658a-4a99-b143-9a7b51f5af16";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
